@@ -9,6 +9,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   imports: [CommonModule],
   templateUrl: './index.html'
     ,
+    styleUrls:['./global_styles.css']
 })
 export class App {
   name = 'Angular';
